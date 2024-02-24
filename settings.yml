@@ -1,0 +1,13 @@
+cta_banner_link:
+  default: "/"
+show_on:
+  default: "homepage"
+  type: enum
+  choices:
+    - homepage
+    - latest/top/new/categories
+    - everywhere
+plugin_outlet:
+  default: "above-main-container"
+hide_on_mobile:
+  default: false
